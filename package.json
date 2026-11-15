@@ -1,0 +1,29 @@
+{
+  "name": "kellan",
+  "version": "0.0.1",
+  "description": "Personal AI assistant and chat companion",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "default": "./src/index.js"
+    }
+  },
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "keywords": [
+    "ai",
+    "assistant",
+    "bot",
+    "companion"
+  ],
+  "author": "Luki Zainur <lukyfriendly@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  }
+}
